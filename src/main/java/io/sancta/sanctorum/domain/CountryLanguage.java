@@ -15,6 +15,7 @@ import java.math.BigDecimal;
 @Entity
 @Table(schema = "world", name = "country_language")
 @FieldDefaults(level = AccessLevel.PRIVATE)
+
 public class CountryLanguage {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

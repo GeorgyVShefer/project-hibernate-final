@@ -1,6 +1,5 @@
 package io.sancta.sanctorum.domain;
 
-import io.lettuce.core.dynamic.annotation.CommandNaming;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
